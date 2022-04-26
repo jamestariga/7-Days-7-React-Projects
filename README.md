@@ -2,7 +2,7 @@
 
 ## About
 
-This is my first react project for this challenge. This project highlights the infinite scroll technique that is widely used amongst many social media apps such as Twitter.
+This is my first react project for this challenge. This project highlights the infinite scroll technique that is widely used amongst many social media apps such as Twitter. [Visit the site](https://infinite-scroll-jamestariga.netlify.app/)
 
 ## Scope
 

@@ -2,7 +2,7 @@
 
 ## About
 
-This is my second react project for this challenge. This project highlights the the theme toggle technique in many applications.
+This is my second react project for this challenge. This project highlights the the theme toggle technique in many applications. Live [site](https://toggle-theme-jamestariga.netlify.app/).
 
 ## Scope
 

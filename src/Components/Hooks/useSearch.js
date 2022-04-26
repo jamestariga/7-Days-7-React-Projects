@@ -14,8 +14,9 @@ const useSearch = (query, pageNumber) => {
   useEffect(() => {
     setLoading(true)
     setError(false)
-    // eslint-disable-next-line
+
     let cancel
+
     axios({
       method: 'GET',
       url: 'http://openlibrary.org/search.json',
@@ -41,6 +42,7 @@ const useSearch = (query, pageNumber) => {
         if (axios.isCancel(err)) return
         setError(true)
       })
+    return () => cancel()
   }, [query, pageNumber])
 
   return { loading, error, books, hasMore }

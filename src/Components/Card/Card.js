@@ -1,0 +1,32 @@
+import React from 'react'
+import {
+  CardContainer,
+  TitleContainer,
+  ImageContainer,
+} from '../Styles/Card.styles'
+
+const Card = (props) => {
+  const { title, name, backdrop_path, poster_path } = props
+
+  return (
+    <>
+      <CardContainer layout>
+        <TitleContainer>
+          {title ? <h2>{title}</h2> : <h2>{name}</h2>}
+        </TitleContainer>
+        <ImageContainer>
+          {backdrop_path ? (
+            <img
+              src={`https://image.tmdb.org/t/p/w500${backdrop_path}`}
+              alt=''
+            />
+          ) : (
+            <img src={`https://image.tmdb.org/t/p/w500${poster_path}`} alt='' />
+          )}
+        </ImageContainer>
+      </CardContainer>
+    </>
+  )
+}
+
+export default Card

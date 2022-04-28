@@ -10,7 +10,13 @@ const Card = (props) => {
 
   return (
     <>
-      <CardContainer layout>
+      <CardContainer
+        layout
+        animate={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+      >
         <TitleContainer>
           {title ? <h2>{title}</h2> : <h2>{name}</h2>}
         </TitleContainer>

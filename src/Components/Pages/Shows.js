@@ -52,13 +52,15 @@ const Movies = () => {
           setActiveGenre={setActiveGenre}
         />
         <LayoutWrapper layout animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
-          {filtered.map((res) => {
-            return (
-              <div key={res.id}>
-                <Card {...res} />
-              </div>
-            )
-          })}
+          <AnimatePresence>
+            {filtered.map((res) => {
+              return (
+                <div key={res.id}>
+                  <Card {...res} />
+                </div>
+              )
+            })}
+          </AnimatePresence>
         </LayoutWrapper>
       </LayoutContainer>
     </>

@@ -21,3 +21,9 @@ Checkout the source code for this project [here](https://github.com/jamestariga/
 This project is about implementing a content filtering in a website. In this project, filtering is triggered when the user selects a specific genre from the drop down menu. The API returns an array of genre IDs for every movie returned. The data is then filtered to check if the movie contains a specific genre using the includes() method. Only the objects with the specified genre ID will be displayed. Lastly, I added animations when the filtering occurs using Framer Motion.
 
 Checkout the source code for this project [here](https://github.com/jamestariga/7-Days-7-React-Projects/tree/Content-Filter) or visit the live [site](https://movie-filter-jamestariga.netlify.app/).
+
+## Project 4: Mini Blog App
+
+This project is a mini blog app where the user can create and delete a post. In this project, I learned how to implement state persistence in React using LocalStorage. This is the practice where the state is stored in the Local storage of the browser. This method should only be used for smaller applications.
+
+Checkout the source code for this project [here](https://github.com/jamestariga/7-Days-7-React-Projects/tree/Blog-App) or visit the live [site](https://blog-app-jamestariga.netlify.app/).

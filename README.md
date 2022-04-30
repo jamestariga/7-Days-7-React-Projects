@@ -27,3 +27,9 @@ Checkout the source code for this project [here](https://github.com/jamestariga/
 This project is a mini blog app where the user can create and delete a post. In this project, I learned how to implement state persistence in React using LocalStorage. This is the practice where the state is stored in the Local storage of the browser. This method should only be used for smaller applications.
 
 Checkout the source code for this project [here](https://github.com/jamestariga/7-Days-7-React-Projects/tree/Blog-App) or visit the live [site](https://blog-app-jamestariga.netlify.app/).
+
+## Project 5: Progressive Web App (Weather App)
+
+This application is my first progressive web app project. In this project, I learned how to build a PWA. The project is essentially just a simple weather app that can be installed locally.
+
+Checkout the source code for this project [here](https://github.com/jamestariga/7-Days-7-React-Projects/tree/PWA-App) or visit the live [site](https://pwa-weather-app-jamestariga.netlify.app/).

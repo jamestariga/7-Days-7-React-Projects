@@ -1,5 +1,5 @@
 export const spinTransition = {
-  loop: Infinity,
+  repeat: Infinity,
   ease: 'linear',
   duration: 1,
 }
